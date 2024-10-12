@@ -11,7 +11,7 @@ import com.eteration.simplebanking.model.Account;
 import com.eteration.simplebanking.model.DepositTransaction;
 import com.eteration.simplebanking.model.InsufficientBalanceException;
 import com.eteration.simplebanking.model.WithdrawalTransaction;
-import com.eteration.simplebanking.services.AccountService;
+import com.eteration.simplebanking.service.AccountService;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
