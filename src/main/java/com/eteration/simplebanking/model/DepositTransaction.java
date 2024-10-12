@@ -18,6 +18,6 @@ public class DepositTransaction extends Transaction {
 
     @Override
     public void execute(Account account){
-        account.credit();
+        account.credit(amount);
     }
 }
