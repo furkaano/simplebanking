@@ -61,4 +61,9 @@ public abstract class Transaction {
     public void setApprovalCode(String approvalCode) {
         this.approvalCode = approvalCode;
     }
+
+    // To get transaction type
+    public String getType(){
+        return this.getClass().getSimpleName();
+    }
 }

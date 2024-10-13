@@ -1,5 +1,8 @@
 package com.eteration.simplebanking.model;
 
+import javax.persistence.Entity;
+
+@Entity
 public class PhoneBillPaymentTransaction extends Transaction{
 
     private String operator;
