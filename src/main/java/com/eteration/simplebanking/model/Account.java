@@ -1,5 +1,7 @@
 package com.eteration.simplebanking.model;
 
+import com.eteration.simplebanking.exception.InsufficientBalanceException;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.Date;
@@ -31,7 +33,7 @@ public class Account {
         this.accountNumber = accountNumber;
     }
 
-    public void deposit(Transaction transaction) throws InsufficientBalanceException{
+    public void deposit(Transaction transaction) throws InsufficientBalanceException {
         transaction.execute(this);
         transactions.add(transaction);
     }

@@ -1,5 +1,7 @@
 package com.eteration.simplebanking.model;
 
+import com.eteration.simplebanking.exception.InsufficientBalanceException;
+
 import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 

@@ -3,7 +3,7 @@ package com.eteration.simplebanking.service;
 import com.eteration.simplebanking.controller.TransactionStatus;
 import com.eteration.simplebanking.model.Account;
 import com.eteration.simplebanking.exception.AccountNotFoundException;
-import com.eteration.simplebanking.model.InsufficientBalanceException;
+import com.eteration.simplebanking.exception.InsufficientBalanceException;
 import com.eteration.simplebanking.model.Transaction;
 import com.eteration.simplebanking.repository.AccountRepository;
 
